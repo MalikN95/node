@@ -5,7 +5,7 @@ const app = express()
 const os = require('os')
 
 console.log(os.cpus());
-console.log('v1.1')
+console.log('v1.2')
 
 const hbs = exphandle.create({
     defaultLayout: 'main',
