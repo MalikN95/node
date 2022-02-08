@@ -2,9 +2,6 @@ const express = require('express')
 const path = require('path')
 const exphandle = require('express-handlebars')
 const app = express()
-const os = require('os')
-
-console.log(os.cpus());
 
 const hbs = exphandle.create({
     defaultLayout: 'main',
